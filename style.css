@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+.login {
+    margin-right: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.hero {
+    /*background: url('hero-bg.jpg') no-repeat center center/cover;
+	background: url('grass_tall_v2_2x.png') no-repeat center center/cover;*/
+	background: #198731;
+    padding: 50px 20px;
+    color: white;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.feature {
+    width: 30%;
+    padding: 20px;
+}
+
+.feature img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #ffcc00;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.construction {
+    text-align: center;
+    padding: 50px;
+}
+
+.construction img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
