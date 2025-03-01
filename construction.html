@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strona w Budowie</title>
+    <title>Strona dla Przedszkolaków</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,7 +11,13 @@
         <div class="logo">
             <img src="logo.png" alt="Logo Strony">
         </div>
-        <nav>
+        <!-- Hamburger Icon for Mobile -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav id="nav-menu">
             <ul>
                 <li><a href="index.html">Strona główna</a></li>
                 <li><a href="program-nauczania.html">Program nauczania</a></li>
@@ -26,7 +32,6 @@
             <a href="construction.html" class="btn">Zarejestruj się</a>
         </div>
     </header>
-
     <main>
         <section class="construction">
             <h1>Strona w Budowie</h1>
@@ -38,5 +43,6 @@
     <footer>
         <p>&copy; 2025 FELA – Fundacja Eksploracji i Logicznej Akademii. Wszelkie prawa zastrzeżone.</p>
     </footer>
+	<script src="script.js"></script>
 </body>
 </html>
